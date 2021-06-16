@@ -15,4 +15,4 @@ Will update this repo on my free time.
 
 
 # Screenshot
-![Screenshot](wip.png)
+![Screenshot](Meridian/Docs/wip.png)
