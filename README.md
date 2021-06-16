@@ -6,9 +6,12 @@ This was done over the weekend for a personal portfolio and is currently an earl
 
 Another project of this Landing Page will be developed using React & .NET Core.
 
-TO-DO
+# TO-DO
 - Integrating Code-First EntityFramework
 - Refactor Styling and Integrate Responsive Design
 - ...
 
 Will update this repo on my free time.
+
+
+# Screenshot
