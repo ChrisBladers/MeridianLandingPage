@@ -8,6 +8,6 @@ namespace Meridian.Handlers.Interfaces
         ContactDetailsDTO MapContactDetailsToDTO();
         BannerDTO MapBannerToDTO();
         IEnumerable<HangBannerDTO> MapHangBannersToDTO();
-        //ReasonDTO MapToDTO(Reason reason);
+        //IEnumerable<ReasonDetailsDTO> MapToDTO(ReasonDetails reasonDetails);
     }
 }

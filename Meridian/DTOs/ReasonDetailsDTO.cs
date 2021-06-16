@@ -3,9 +3,9 @@ namespace Meridian.DTOs
 {
     public class ReasonDetailsDTO
     {
-        public string ReasonTitle { get; set; }
-        public string ReasonHeader { get; set; }
-        public string ReasonText { get; set; }
-        public string ReasonImage { get; set; }
+        public string ReasonDetailsTitle { get; set; }
+        public string ReasonDetailsHeader { get; set; }
+        public string ReasonDetailsText { get; set; }
+        public string ReasonDetailsImage { get; set; }
     }
 }

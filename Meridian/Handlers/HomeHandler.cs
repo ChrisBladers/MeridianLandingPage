@@ -8,9 +8,16 @@ namespace Meridian.Handlers
 {
     public class HomeHandler : IHomeHandler
     {
-        /*public ReasonDTO MapToDTO(Reason reasonDTO)
+        /*public IEnumerable<ReasonDetailsDTO>MapToDTO(ReasonDetails reasonDetails)
         {
-            throw new NotImplementedException();
+            return reasonDetails.Select(r => new ReasonDetailsDTO() 
+            { 
+                ReasonDetailsTitle = r.ReasonDetailsTitle, 
+                ReasonDetailsHeader = r.ReasonDetailsHeader, 
+                ReasonDetailsText = r.ReasonDetailsText,
+                ReasonDetailsImage = r.ReasonDetailsImage
+            });
+
         }*/
         public ContactDetailsDTO MapContactDetailsToDTO()
         {
