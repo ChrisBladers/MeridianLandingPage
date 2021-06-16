@@ -1,0 +1,71 @@
+﻿<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<section class="top-bar">
+    <div layout="row">
+        <md-button class="md-fab lightCareColor" aria-label="Comment">
+            A-
+        </md-button>
+        <md-button class="md-fab lightCareColor" aria-label="Comment">
+            A
+        </md-button>
+        <md-button class="md-fab lightCareColor" aria-label="Comment">
+            A+
+        </md-button>
+    </div>
+</section>
+
+<section layout="row" class="logo">
+        <div  style="margin-left:55px;" flex="75">
+            <a href="#">
+                <img src="../../../Content/Care.png" />
+            </a>
+        </div>
+        <div flex="25">
+            <a href="" class="facebook">
+                <md-icon>facebook</md-icon>
+            </a>
+        </div>
+</section>
+
+<hr />
+
+<section layout="row" class="menu">
+        <nav class="md-nav-bar">
+            <ul class="nav nav-bar" layout="row">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Help Me Choose</a></li>
+                <li><a href="#">Medicare 101</a></li>
+                <li><a href="#">Provider</a></li>
+                <li><a href="#">Member</a></li>
+                <li><a href="#">Pay My Premium</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+</section>
+<section>
+    <img class="img-responsive" src="../../../Content/{{$ctrl.banner.BannerImage}}" />
+        <div class="bannerFormBlock" layout="column" layout-sm="column">
+            <h1 class="enrollmentTitle">{{$ctrl.banner.BannerTitle}}</h1>
+            <md-button class="btn banner-enroll-btn banner-btn">{{$ctrl.banner.BannerPrimaryButtonText}}</md-button>
+            <md-button class="btn banner-btn banner-compare-btn">{{$ctrl.banner.BannerSecondaryButtonText}}</md-button>
+        </div>
+</section>
+
+<section  class="container learnMore"  layout="row">
+    <div ng-repeat="hangBanner in $ctrl.hangBanners" class="hangbanner">
+        <div class="hangbannerIcon"><md-icon inline=true class="bold-icon">{{hangBanner.HangBannerIcon}}</md-icon></div>
+        <p class="hangBannerTitle">{{hangBanner.HangBannerTitle}}</p>
+        <br>
+        <p class="hangBannerText">{{hangBanner.HangBannerText}}</p>
+        <br>
+        <a class="btn" href="#">{{hangBanner.HangBannerButtonText}}</a>
+    </div>
+</section>
+
+<section class="container" layout="row">
+        <div class="text-center phoneblock">
+                <p class="title">{{ $ctrl.contactDetails.PhoneNumber}}</p>
+                <p>{{$ctrl.contactDetails.AccessCode}}</p>
+                <p>{{$ctrl.contactDetails.ServiceHours}}</p>
+        </div>
+</section>
+

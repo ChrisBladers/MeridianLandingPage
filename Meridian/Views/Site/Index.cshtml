@@ -1,0 +1,33 @@
+﻿
+@using System.Configuration
+@using System.Web.Hosting
+
+@{  var domain = ConfigurationManager.AppSettings["Domain"];}
+
+
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ConfigurationManager.AppSettings["ApplicationName"]</title>
+
+    <script>
+        var applicationName = "@ConfigurationManager.AppSettings["ApplicationName"]";
+        var loginURL = "@ConfigurationManager.AppSettings["LoginURL"]";
+        var domain = "@ConfigurationManager.AppSettings["Domain"]";
+    </script>
+
+    <link rel="stylesheet" href="https://web.archive.org/web/20171014082433cs_/https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <base href="/">
+</head>
+
+<body>
+    <c-app>
+        <ng-view>
+
+        </ng-view>
+    </c-app>
+</body>
+</html>

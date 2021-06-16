@@ -1,0 +1,295 @@
+﻿body {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 1.43;
+    color: #545454;
+}
+
+.active {
+    background-color: #64CBC9;
+    color: #fff !important;
+}
+
+.reasonlink {
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #5D5D5D;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.navReason ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.reasonBody {
+    width: 50%;
+}
+
+.questionForm {
+    height: 496px;
+    border: 2px solid #739FA1;
+    margin-top: 60px;
+}
+
+.questionTitle {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.questions {
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.questionButton{
+    background-color: #65C8C2;
+    border-radius: 0;
+    padding: 7px 45px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.reasonborder {
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border: 2px solid #739FA1;
+}
+
+ul, li {
+    font-size: 18px;
+}
+
+.navReason {
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+    text-align:center;
+}
+
+    .navReason li {
+        float: left;
+        margin-right: 15px;
+        font-size: 15px;
+        padding: 5px 25px;
+    }
+
+.reasonTitle {
+    color: #3d3d3d;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+.reason {
+    width: 100%;
+    background-color: #F4F5F9;
+    margin-top: 60px;
+}
+
+.bold-icon {
+    font-weight: bolder;
+}
+
+.hangbanner md-icon {
+    font-size: 100px;
+    color: #fff;
+
+}
+
+.hangbannerIcon {
+    min-height: 111px;
+    margin-top: 14px;
+    margin-left: -72px;
+}
+
+.hangbanner {
+    margin-right: 10px;
+    text-align: center;
+    min-width: 383px;
+    width: 383px;
+    background-color: #739fa1;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-bottom: 20px;
+}
+
+.hangBannerTitle {
+    color: #fff;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+}
+
+p {
+    color: #545454;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.phoneblock {
+    border: 8px solid #60c6c9;
+    background-color: #c2e6e3;
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p.title {
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.phoneblock p {
+    padding-bottom: 10px;
+    color: #6fa0a2;
+    font-size: 32px;
+}
+
+.hangBannerText {
+    color: #fff;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 19px;
+    font-family: MuseoSans;
+    font-style: normal;
+    font-weight: 100;
+    height: 37.3333px;
+}
+
+.hangbanner a {
+    background-color: #64cbc9;
+    color: #fff;
+    border-radius: 0;
+    padding: 6px 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    padding: 10px 12px;
+}
+
+view-home .top-bar {
+    background-color: #2a2a2a;
+    padding: 3px 0;
+}
+
+.lightCareColor {
+    background-color: #669999 !important;
+}
+
+
+
+.nav > li > a {
+    position: relative;
+    display: normal;
+    padding: 0;
+    text-align: center;
+}
+
+.md-nav-bar {
+    border: none;
+}
+
+.menu {
+    width: 50% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*
+@media (min-width: 700px)  {
+   
+}*/
+
+.logo {
+    margin-top: 15px;
+    width: 50% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.btn {
+    padding: 10px 12px;
+}
+
+.enrollmentTitle {
+    color: #739fa1;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.banner-enroll-btn {
+    text-transform: uppercase;
+    background-color: #68C8C7;
+    color: #fff;
+}
+
+.banner-btn {
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    letter-spacing: 1px;
+}
+
+.learnMore {
+    margin-top: -96px;
+}
+
+.banner-compare-btn {
+    text-transform: uppercase;
+    background-color: #7B4628;
+    color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+    .bannerFormBlock {
+        position: absolute;
+        top: 32%;
+        right: 20%;
+        width: 377px;
+    }
+
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
