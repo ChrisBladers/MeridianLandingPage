@@ -1,6 +1,6 @@
 # MeridianLandingPage
 
-This is a rewrite of the Landing Page I partially designed and fully developed at Meridian using ASP.NET / JQuery and EpiServer CMS.
+This is a rewrite of the Landing Page I partially designed and fully developed at Meridian using ASP.NET / JQuery / Bootstrap and EpiServer CMS.
 This rewrite will be using completely different frameworks and tech stacks.
 
 First the project will be based on AngularJS, ASP.NET and EntityFrameWork (Code-Fist) then eventually another version based on React & .NET Core.
