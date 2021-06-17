@@ -152,8 +152,6 @@
     <Compile Include="App_Start\ContainerConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\CustomController.cs" />
-    <Compile Include="Controllers\IndexController.cs" />
     <Compile Include="Controllers\SiteController.cs" />
     <Compile Include="DataResponseExtensions.cs" />
     <Compile Include="Controllers\HomeController.cs" />
