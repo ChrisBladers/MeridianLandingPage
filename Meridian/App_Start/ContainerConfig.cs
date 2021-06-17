@@ -1,10 +1,6 @@
 ﻿using System.Linq;
 using System.Reflection;
 using System.Web.Mvc;
-using Meridian.Handlers;
-using Meridian.Handlers.Interfaces;
-using Meridian.Services;
-using Meridian.Services.Interfaces;
 using SimpleInjector;
 using SimpleInjector.Integration.Web;
 using SimpleInjector.Integration.Web.Mvc;
