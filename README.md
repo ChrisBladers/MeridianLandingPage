@@ -9,7 +9,7 @@ This was done over the weekend for a personal portfolio and is currently an earl
 
 # TO-DO
 - Integrating Code-First EntityFramework
-- Refactor Styling and Integrate Responsive Design
+- Refactor Styling (also using REM over px) and Integrate Responsive Design
 - Error Handling
 - ...etc
 
