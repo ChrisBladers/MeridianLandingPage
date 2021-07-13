@@ -2,20 +2,26 @@
 using System.Linq;
 using Meridian.Repositories.Interfaces;
 using Meridian.DTOs;
-
+using Meridian.Models;
+using Meridian.Services;   
 namespace Meridian.Repositories
 {
     public class HomeRepository : IHomeRepository
     {
+
+        private readonly MeridianDBContext _dbContext;
+        public HomeRepository(MeridianDBContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
         public IQueryable<HangBannerDTO> GetHangBanners()
         {
             //return DataConnection.mcontext.HangBanners.OrderBy(x => x.HangBannerID);
             throw new NotImplementedException();
         }
-        public BannerDTO GetBanner()
+        public Banner GetBanner(int Id)
         {
-            //return DataConnection.mcontext.Banner.FirstOrDefault();
-            throw new NotImplementedException();
+            return _dbContext.Banners.Where(i => i.Id == Id).FirstOrDefault();
         }
         public IQueryable<ContactDetailsDTO> GetContactDetails()
         {

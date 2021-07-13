@@ -3,6 +3,7 @@ using System.Linq;
 using Meridian.DTOs;
 using System;
 using Meridian.Handlers.Interfaces;
+using Meridian.Models;
 
 namespace Meridian.Handlers
 {
@@ -19,6 +20,18 @@ namespace Meridian.Handlers
             });
 
         }*/
+
+        public  BannerDTO MapToDTO(Banner banner)
+        {
+            return new BannerDTO()
+            {
+                BannerImage = banner.BannerImage,
+                BannerPrimaryButtonText = banner.BannerPrimaryButtonText,
+                BannerSecondaryButtonText = banner.BannerSecondaryButtonText,
+                BannerTitle = banner.BannerTitle,
+                BannerSubtitle = banner.BannerSubtitle
+            };
+        }
         public ContactDetailsDTO MapContactDetailsToDTO()
         {
             return new ContactDetailsDTO {

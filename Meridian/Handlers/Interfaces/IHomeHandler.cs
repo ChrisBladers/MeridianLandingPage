@@ -1,4 +1,5 @@
 ﻿using Meridian.DTOs;
+using Meridian.Models;
 using System.Collections.Generic;
 
 namespace Meridian.Handlers.Interfaces
@@ -7,6 +8,8 @@ namespace Meridian.Handlers.Interfaces
     {
         ContactDetailsDTO MapContactDetailsToDTO();
         BannerDTO MapBannerToDTO();
+
+        BannerDTO MapToDTO(Banner banner);
         IEnumerable<HangBannerDTO> MapHangBannersToDTO();
         //IEnumerable<ReasonDetailsDTO> MapToDTO(ReasonDetails reasonDetails);
     }

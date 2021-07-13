@@ -5,6 +5,8 @@ using SimpleInjector;
 using SimpleInjector.Integration.Web;
 using SimpleInjector.Integration.Web.Mvc;
 using Container = SimpleInjector.Container;
+using Meridian.Services;
+using SimpleInjector.Diagnostics;
 
 namespace Meridian
 {
@@ -27,6 +29,14 @@ namespace Meridian
             {
                 container.Register(reg.service, reg.implementation);
             }
+            container.Register<MeridianDBContext>();
+            Registration registration = container.GetRegistration(typeof(MeridianDBContext)).Registration;
+
+            registration.SuppressDiagnosticWarning(
+                DiagnosticType.DisposableTransientComponent,
+                "Reason of suppression");
+
+
             container.RegisterMvcControllers(assembly);
             container.Verify();
 
